@@ -22,7 +22,11 @@
     and lastName properties. Use destructuring assignment to extract the properties of the
     returned object into variables called firstName and lastName.
     */
-    //ENTER YOUR CODE HERE
+    function getFullName() {
+      return { firstName: 'Student', lastName: 'Learner' };
+    }
+    let { firstName, lastName } = getFullName();
+    console.log(firstName, lastName);
     
      /* 
     PROBLEM 3: Declare a function called getRectangleDimensions that returns an object with
