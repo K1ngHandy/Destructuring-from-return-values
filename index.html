@@ -11,7 +11,11 @@
     Use destructuring assignment to extract the properties of the returned object into variables 
     called personName and personAge.
     */
-    //ENTER YOUR CODE HERE
+    function getPerson() {
+      return { name: 'Name', age: 30 };
+    }
+    let { name, age } = getPerson();
+    console.log(name, age);
      
     /* 
     PROBLEM 2: Decalre a function called getFullName that returns an object with firstName
